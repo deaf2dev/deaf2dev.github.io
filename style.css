@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title-2 {
+    font-size: 3em;
+    color: #343a40;
+    font-weight: 700;
+}
+
+.pengalaman {
+    display: block;
+    margin: 0 120px 120px 120px;
+}
+
+#judulPengalaman {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+body hr {
+    background: #5D5FEF; 
+    width: 142px; 
+    margin: auto; 
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+    
+.pengalaman img {
+    height: 330px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
+.card-title {
+    font-size: 1.75em;
+}
+
+.card-text {
+    font-size: 1.25em;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 550px) {
+    .pengalaman {
+        margin: 0;
+    }
+}
