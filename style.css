@@ -131,11 +131,11 @@ footer {
     display: block;
 }
 
-.socmed a {
+.socials a {
     text-decoration: none;
 }
 
-.socmed {
+.socials {
     margin-left: 650px;
 }
 
@@ -153,7 +153,7 @@ a img {
         margin-left: 55px;
     }
 
-    .socmed {
+    .socials {
         margin: 0;
     }
 }
