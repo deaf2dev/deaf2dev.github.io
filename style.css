@@ -144,6 +144,17 @@ a img {
     padding-left: 20px;
 }
 
+/* Quote */
+#quote-container {
+    background-color: #5D5FEF;
+}
+
+#quote {
+    color: white;
+    font-size: 30px;
+    max-width: 1300px;
+}
+
 @media screen and (max-width: 550px) {
     .pengalaman {
         margin: 0;
