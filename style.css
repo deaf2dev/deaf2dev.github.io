@@ -155,6 +155,10 @@ a img {
 }
 
 /* Skill */
+#skill-main-container {
+    max-width: 1300px;
+}
+
 #skill-picture {
     height: 523px;
     width: 553px;
@@ -166,6 +170,16 @@ a img {
     background: #5D5FEF; 
     width: 142px;
     margin-bottom: 30px;
+}
+
+.skill-item-picture {
+    width: 53px;
+}
+
+.skill-title {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 !important;
 }
 
 @media screen and (max-width: 550px) {
