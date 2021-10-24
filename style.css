@@ -154,6 +154,20 @@ a img {
     max-width: 1300px;
 }
 
+/* Skill */
+#skill-picture {
+    height: 523px;
+    width: 553px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+#skill-hr {
+    background: #5D5FEF; 
+    width: 142px;
+    margin-bottom: 30px;
+}
+
 @media screen and (max-width: 550px) {
     .pengalaman {
         margin: 0;
