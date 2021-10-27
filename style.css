@@ -89,8 +89,8 @@
     margin-bottom: 120px;
 }
 
-.hr-1, .hr-2 {
-    background: #5D5FEF;
+.hr-1, .hr-2, .hr-3 {
+    background: var(--bg-first);
     width: 142px;
     margin-bottom: 30px;
 }
@@ -155,7 +155,7 @@ a img {
 
 /* Quote */
 #quote-container {
-    background-color: #5D5FEF;
+    background-color: var(--bg-first);
 }
 
 #quote {
@@ -178,12 +178,6 @@ a img {
     height: auto;
     width: 100%;
     border-radius: 25px;
-}
-
-#skill-hr {
-    background: #5D5FEF; 
-    width: 142px;
-    margin-bottom: 30px;
 }
 
 .skill-item-picture {
