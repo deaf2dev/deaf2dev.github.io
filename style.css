@@ -84,13 +84,50 @@
     color: var(--title);
 }
 
+/* Quote */
+#quote-container {
+    background-color: var(--bg-first);
+}
+
+#quote {
+    font-size: 30px;
+    max-width: 1300px;
+}
+
+/* Skill */
+.title-2 {
+    font-size: 40px;
+    color: var(--title);
+    font-weight: 700;
+}
+
+#skill-main-container {
+    max-width: 1300px;
+}
+
+#skill-picture {
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.skill-item-picture {
+    width: 53px;
+}
+
+.skill-title {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 !important;
+}
+
 /* Pengalaman */
 #judulPengalaman {
     margin-bottom: 120px;
 }
 
-.hr-1, .hr-2 {
-    background: #5D5FEF;
+.hr-1, .hr-2, .hr-3 {
+    background: var(--bg-first);
     width: 142px;
     margin-bottom: 30px;
 }
@@ -150,47 +187,4 @@ footer {
 a img {
     width: 60px;
     padding-left: 20px;
-}
-
-/* Quote */
-#quote-container {
-    background-color: #5D5FEF;
-}
-
-#quote {
-    font-size: 30px;
-    max-width: 1300px;
-}
-
-/* Skill */
-.title-2 {
-    font-size: 40px;
-    color: var(--title);
-    font-weight: 700;
-}
-
-#skill-main-container {
-    max-width: 1300px;
-}
-
-#skill-picture {
-    height: auto;
-    width: 100%;
-    border-radius: 25px;
-}
-
-#skill-hr {
-    background: #5D5FEF; 
-    width: 142px;
-    margin-bottom: 30px;
-}
-
-.skill-item-picture {
-    width: 53px;
-}
-
-.skill-title {
-    font-size: 25px;
-    font-weight: 400;
-    margin: 0 !important;
 }
