@@ -184,7 +184,7 @@ a img {
     margin: 0 !important;
 }
 
-@media screen and (min-width: 360px) {
+/* @media screen and (max-width: 540px) {
     .pengalaman {
         margin: 0;
     }
@@ -196,4 +196,4 @@ a img {
     .socials {
         margin: 0;
     }
-}
+} */
