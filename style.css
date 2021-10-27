@@ -75,6 +75,8 @@
     font-weight: 700;
 }
 
+/* Pengalaman */
+
 #judulPengalaman {
     margin-bottom: 120px;
 }
@@ -119,6 +121,8 @@
     font-size: 1.1em;
     font-weight: lighter;
 }
+
+/* Footer */
 
 footer {
     background: #343A40;
@@ -180,13 +184,13 @@ a img {
     margin: 0 !important;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (min-width: 360px) {
     .pengalaman {
         margin: 0;
     }
 
     .card {
-        margin-left: 55px;
+        margin-left: 60px;
     }
 
     .socials {
