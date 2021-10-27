@@ -158,10 +158,9 @@ a img {
 }
 
 #skill-picture {
-    height: 523px;
-    width: 553px;
+    height: auto;
+    width: 100%;
     border-radius: 25px;
-    object-fit: cover;
 }
 
 #skill-hr {
