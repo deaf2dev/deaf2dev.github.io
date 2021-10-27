@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+:root {
+    --bg-first: #5D5FEF;
+    --bg-second: #F6F7FB;
+    --bg-jumbotron: #F6F7FB;
+    --secondary: #737373;
+    --btn-hovered: #5457EE;
+    --title: #343A40;
+    --white: #FFFFFF;
+}
+
 /* Navbar */
 .navbar-nav {
     font-size: 20px !important;
@@ -11,34 +21,37 @@
 }
 
 .logo {
-    background-color: #5D5FEF;
-    color: #FFFFFF;
+    background-color: var(--bg-first);
+    color: var(--white);
     width: 50px;
     height: 50px;
     border-radius: 10px;
 }
 
-.secondary {
-    color: #737373;
+.bg-first {
+    background-color: var(--bg-first);
 }
 
 .bg-second {
-    background-color: #F6F7FB;
+    background-color: var(--bg-second);
+}
+
+.secondary {
+    color: var(--secondary);
 }
 
 .hubungi {
-    background-color: #5D5FEF;
     border-radius: 15px;
 }
 
 .hubungi:hover, .hubungi:active, .hubungi:visited {
-    background-color: #5457EE !important;
+    background-color: var(--btn-hovered) !important;
 }
 
 /* Profile */
 .jumbotron {
     padding: 2rem 1rem;
-    background-color: #F6F7FB;
+    background-color: var(--bg-jumbotron);
     border-radius: .3rem;
     padding-bottom: 217px;
 }
@@ -55,7 +68,7 @@
 }
 
 .btn-primary {
-    background-color: #5D5FEF !important;
+    background-color: var(--bg-first) !important;
     border-radius: 20px !important;
     width: 200px !important;
     height: 70px !important;
@@ -63,14 +76,13 @@
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #5457EE !important;
+    background-color: var(--btn-hovered) !important;
 }
 
 .title-1 {
     font-size: 60px;
-    color: #343a40;
+    color: var(--title);
 }
-
 
 /* Pengalaman */
 #judulPengalaman {
@@ -78,7 +90,7 @@
 }
 
 .hr-1, .hr-2 {
-    background: #5D5FEF; 
+    background: #5D5FEF;
     width: 142px;
     margin-bottom: 30px;
 }
@@ -154,7 +166,7 @@ a img {
 /* Skill */
 .title-2 {
     font-size: 40px;
-    color: #343a40;
+    color: var(--title);
     font-weight: 700;
 }
 
