@@ -71,14 +71,8 @@
     color: #343a40;
 }
 
-.title-2 {
-    font-size: 40px;
-    color: #343a40;
-    font-weight: 700;
-}
 
 /* Pengalaman */
-
 #judulPengalaman {
     margin-bottom: 120px;
 }
@@ -125,7 +119,6 @@
 }
 
 /* Footer */
-
 footer {
     background: #343A40;
     color: white;
@@ -159,15 +152,20 @@ a img {
 }
 
 /* Skill */
+.title-2 {
+    font-size: 40px;
+    color: #343a40;
+    font-weight: 700;
+}
+
 #skill-main-container {
     max-width: 1300px;
 }
 
 #skill-picture {
-    height: 523px;
-    width: 553px;
+    height: auto;
+    width: 100%;
     border-radius: 25px;
-    object-fit: cover;
 }
 
 #skill-hr {
